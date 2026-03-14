@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+
+    }
+
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    .nav {
+        display: flex;
+        gap: 50px;
+    }
+
+    #botao_login {
+        width: 75px;
+        height: 25px;
+        border: none;
+
+        background-color:darkblue;
+        color: white;
+        border-radius:10%;
+    }
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .colocar a esquerda, .colocar a direita {
+        display: flex;
+        width: 48%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #titulo {
+        padding-top: 100px;
+        font-size: 180px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    #subtexto_titulo {
+        font-size: 50px;
+        padding-left: 600px;
+        padding-right: 30px;
+    }
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+    <header class = "header">
+        <a href = "#"><img src = "logo.png"alt = "Logo do DevMenthors.com.br"></a>
+
+        <nav div class = "nav">
+            <a href = "#">Home</a>
+            <a href = "#">Sobre</a>
+            <a href = "#">Blog</a>
+        </nav>
+
+    <button div id = "botao_login">Login</button>
+    </header>
+
+
+    <main>
+        <div class = "container1">
+            <div class = "colocar a esquerda">
+                <h1 div id = "titulo">Dev <br> Menthors <h5 div id = "subtexto_titulo">Unimar</h5> </h1> 
+            </div>
+
+            <div class = "colocar a direita">
+                <img src = "imagem_main_grande.png" alt = "Aluno programando e pensando em seu futuro brilhante por ter entrado no DevMenthors.com.br">
+            </div>
+
+
+
+        </div>
+            <div class = "colocar a esquerda">
+                <h1>Inicie sua história na área da tecnologia com Dev</h1> 
+            </div>
+
+            <div class = "colocar a direita">
+            </div>
+    </main>
+
+
+</body>
+</html>
